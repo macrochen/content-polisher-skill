@@ -1,5 +1,5 @@
 ---
-name: content-polisher
+name: content-polisher-skill
 description: Polishes drafts into clear, powerful, and rhythmically strong articles suitable for mass communication (C-end blogs, deep articles), following William Zinsser's philosophy.
 ---
 
