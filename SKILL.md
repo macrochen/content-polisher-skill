@@ -58,3 +58,8 @@ First, list a table pointing out specific "problematic sentences" in the origina
 
 ### Step 3: Save to File
 After generating the polished content, you MUST automatically save the exact content (the text displayed inside the Code Block) to a local Markdown file (e.g., `polished_article.md` or a name derived from the title). Use the `write_file` tool for this.
+
+## Boundaries (边界)
+- **Focus Only on Text**: This skill is strictly for text refinement.
+- **No Side Effects**: DO NOT trigger image generation, illustration tools, or layout conversions.
+- **Wait for Confirmation**: Once the file is saved, STOP and wait for the user or the orchestrator to decide the next step.
