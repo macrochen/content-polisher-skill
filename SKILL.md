@@ -45,19 +45,21 @@ Read these comparisons carefully to understand the scale of modification:
 ## Workflow
 
 ### Step 1: Diagnosis Table (诊断表)
-First, list a table pointing out specific "problematic sentences" in the original text:
+First, output a "Thinking" section with a table pointing out specific "problematic sentences" in the original text:
 
 | Original Fragment | Problem Type (Bureaucratese/Redundancy/Passive/Particles) | Suggestion |
 | :--- | :--- | :--- |
 | ... | ... | ... |
 
 ### Step 2: Final Polish (最终润色)
-*   **Execute Rewrite:** Rewrite the article based on the above principles.
+*   **Execute Rewrite:** Rewrite the article based on the core principles.
 *   **Format Preservation:** **Strictly retain** all Markdown formatting from the original text (including headers `#`, bold `**`, lists `-`, quotes `>`, etc.). Do not change the structure, only the text.
-*   **Output Requirements:** Encapsulate the final result in a Markdown Code Block.
+*   **Output Requirements**: Encapsulate the final result in a Markdown Code Block.
 
 ### Step 3: Save to File
-After generating the polished content, you MUST automatically save the exact content (the text displayed inside the Code Block) to a local Markdown file (e.g., `polished_article.md` or a name derived from the title). Use the `write_file` tool for this.
+After generating the polished content, you MUST automatically save the content to a local Markdown file.
+- **Path**: `content/xiaohongshu/[topic-name]/01-polished.md`
+- **Tool**: Use the `write_file` tool for this.
 
 ## Boundaries (边界)
 - **Focus Only on Text**: This skill is strictly for text refinement.
